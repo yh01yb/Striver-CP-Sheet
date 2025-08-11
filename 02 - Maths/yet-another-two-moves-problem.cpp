@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        long long a, b;
+        cin >> a >> b;
+        cout << (abs(a - b) + 9) / 10 << "\n";
+    }
+}
